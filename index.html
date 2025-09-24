@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio do Futuro</title>
+    <meta name="description" content="Esse é um site para criar um portifólio futurista">
+    <meta name="keywords" content="profissional, técnico em informática, trabalho, html, css">
+    <meta name="author" content="Pedro">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Pedro</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#biografia">Biografia</a>
+            <a href="#atuacoes">Atuações</a>
+            <a href="#formacao">Formação</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+            <a href="#formulario">Formulário</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="./img/Copilot_20250911_084032.png" alt="Pedro Felipe, engenheiro de software">
+        </div>
+        <div class="home-content">
+            <h1>Prazer, <span>Pedro</span></h1>
+            <h3 class="typing-text">e sou<span></span></h3>
+            <p>Olá! Meu nome é Pedro Felipe, atualmente tenho 24 anos, e sou formado em Engenharia de Software. </p>
+            <div class="social-icons">
+                <a href="https://br.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/pxdrinftnn"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://br.linkedin.com/" class="btn">Me contrate</a>
+        </div>
+    </section>
+    <section id="biografia" class="blocos">
+        <h3>Biografia</h3>
+        <br><br>
+        <p>Meu nome é Pedro Felipe, tenho 24 anos e nasci em São Paulo, capital, em 2008.   
+           Hoje, atuo como engenheiro de software especializada em arquitetura de sistemas,
+           com experiência em ambientes de alta performance e equipes multidisciplinares. Além
+           da parte técnica, tenho grande interesse por liderança e inovação tecnológica.Também 
+           sou certificado no nível C1 de inglês pela Cultura Inglesa, o que me permite atuar 
+           em projetos internacionais e colaborar com equipes globais. Minha missão como engenheiro
+           de software é construir soluções que sejam não apenas funcionais, mas sustentáveis, éticas
+           e centradas no ser humano. "Tecnologia de verdade é aquela que transforma" - Pedro Felipe.
+        </p>
+    </section>
+    <section id="atuacoes" class="blocos">
+        <h3>Atuações</h3>
+        <br><br>
+        <p>Já atuei em áreas da Segurança de Aplicações, implementando práticas seguras desde o design até a
+            produção. Sou referência em Liderança Técnica, revisando códigos e auxiliando novos estagiários com definição de padrões de 
+            desenvolvimento de Software. Além disso, projeto sistemas com foco em facilidade de atualização, utilizando testes automatizados, 
+            assim evitando acoplamentos excessivos e criando estruturas com novas funcionalidades que não comprometam a estabilidade do sistema.</p>
+    </section>
+     <section id="formacao" class="blocos">
+        <h3>Formação</h3>
+        <br><br>
+            <ul>
+                <li>Ensino Médio Técnico em Informática — 🏫 Senac Aclimação 📍 São Paulo, SP | 🗓️ Jan 2024 – Dez 2025</li>
+                <li>Curso de Inglês Avançado — 📚 Cultura Inglesa 📍 São Paulo, SP | 🗓️ Jan 2026 - Jul 2028</li>
+                <li>Engenharia de Software - 🧑🏻‍🎓 FIAP 📍 São Paulo, SP | 🗓️ Jan 2026 - Dez 2030</li>
+                <li>Pós-graduação em Arquitetura de Sistemas — 🎓 FIAP 📍 São Paulo, SP | 🗓️ Jul 2031 — Cursando</li>
+            </ul>
+    </section>
+     <section id="experiencia" class="blocos">
+        <h3>Experiência</h3>
+        <br><br>
+            <ul>
+                <li>Estagiário em Engenharia de Software — FIAP Labs 📍 São Paulo, SP | 🗓️ Fev 2026 – Jul 2028</li>
+                <li>Engenheiro de Software Pleno — Bradesco 📍 São Paulo, SP | 🗓️ Mar 2030 – Atual</li>
+            </ul>
+    </section>
+     <section id="contato" class="blocos">
+        <h3>Contato</h3>
+        <br><br>
+            <ul>
+                <li>Número: 11 4002-8922</li>
+                <li>Email: pedrofelipecastrorosa@gmail.com</li>
+                <li>Endereço: Avenida Paulista, 123</li>
+            </ul>
+    </section>
+    <div>
+        <section id="formulario" class="blocos">
+
+        <h3>Formulário</h3>
+        <br><br>
+
+    <form class= "contact-form" action="https://formsubmit.co/pedro.fcrosa@senacsp.edu.br" method="POST" />
+       
+        <input name="name" type="text" id="nome" placeholder="Digite o seu nome" required>
+        <br><br>
+
+        <input name="email" type="email" id="email" placeholder="Email" required>
+        <br><br>
+
+        <input name="telefone" type="telefone" id="telefone" placeholder="Telefone" option>
+        <br><br>
+
+        <textarea name="mensagem" style="resize: name" placeholder="Mensagem" raws="20"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+    </form>
+    </div> 
+    </section>
+    
+
+    <footer>
+        <p>© 652 Pedro Felipe 💻 | Engenheiro de Software</p>
+    </footer>
+
+</body>
+</html>
